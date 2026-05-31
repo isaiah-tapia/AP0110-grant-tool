@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Webpage</title>
+    
+    <!-- CSS Style Section -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HTML Content Structure -->
+    <h1>Hello World!</h1>
+    <p>Click the button below to see JavaScript in action.</p>
+    <button id="actionBtn">Click Me</button>
+
+    <!-- JavaScript Interactive Logic -->
+    <script>
+        const button = document.getElementById('actionBtn');
+        button.addEventListener('click', () => {
+            alert('Button clicked! JavaScript is working.');
+        });
+    </script>
+    
+</body>
+</html>
